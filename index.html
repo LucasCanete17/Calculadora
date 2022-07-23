@@ -9,6 +9,21 @@
     
 </head>
 <body>
+
+    <div class="formularioEstilo" id="contenidoFormulario">
+        <form id="formulario">
+            <p id="escribiendo"> Ingresa tu Nombre </p>
+            <p id="respuesta-nombre"></p>
+            <p id="respuesta-apellido"></p>
+            <p id="respuesta-edad"></p>
+            <input id="nombre" type="text" placeholder="Escribe nombre" autocomplete="off">
+            <input id="apellido" type="text" placeholder="Escribe apellido" autocomplete="off">
+            <input class="edad" id="edad" type="text" placeholder="Escribe tu edad" autocomplete="off">
+            <input class="enviar" id="botonUno" type="submit" value="Enviar">
+        </form>
+    </div>
+    
+
     <div class="container">
         <div class="calculadora">
             <div class="display">
@@ -35,6 +50,7 @@
             <button class="operacion" value="igual">=</button>
         </div>
     </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="Calculadora.js"></script>
     <script src="Display.js"></script>
     <script src="index.js" ></script>

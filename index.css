@@ -15,6 +15,7 @@ body {
     height: 100vh;
 }
 
+
 .calculadora {
     display: grid;
     grid-template-columns: repeat(4, 75px);
@@ -22,7 +23,7 @@ body {
     background-color: blue;
     padding: 15px;
     border-radius: 32px;
-    box-shadow: 20px 20px 0px 3px white;
+    box-shadow: 2px 2px 0px 3px black;
 }
 
 button {
@@ -67,4 +68,18 @@ button:active {
     font-size: 2em;
 }
 
+.edad{
+    color: black;
+}
+
+.enviar{
+    color: black;
+}
+
+.formularioEstilo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
